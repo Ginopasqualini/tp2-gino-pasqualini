@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Carta: Charizard Base Set</title>
+</head>
+<body style="background-color: #ffe6cc; font-family: Arial, sans-serif;">
+
+    <h1 style="color: #cc0000;">Charizard - Base Set (1999)</h1>
+    
+    <p><a href="index.html">⬅ Volver a la página principal</a></p>
+
+    <hr>
+
+    <h2>Estadísticas de la Carta</h2>
+    
+    <p>El Charizard del Base Set es probablemente la carta más icónica de toda la historia del juego. Es un Pokémon de tipo Fuego con 120 Puntos de Salud (HP).</p>
+    
+    <h3>Habilidades y Ataques</h3>
+    <h4>Poder Pokémon: Energy Burn</h4>
+    <p>Convierte todas las energías unidas a Charizard en energías de tipo Fuego.</p>
+    
+    <h5>Ataque Principal: Fire Spin</h5>
+    <h6>Daño: 100</h6>
+    <p>Requiere descartar dos cartas de energía unidas a este Pokémon para poder atacar.</p>
+
+    <div style="text-align: center;">
+        <img src="charizard.jpg" 
+             alt="Fotografía de la carta holográfica de Charizard" 
+             title="Charizard Holográfico Base Set" 
+             height="400">
+    </div>
+
+</body>
+</html>
