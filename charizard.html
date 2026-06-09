@@ -2,33 +2,90 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carta: Charizard Base Set</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #1a1a1a; /* Fondo oscuro para resaltar la carta */
+            margin: 0; 
+            padding: 0; 
+            color: #333; 
+        }
+        .tarjeta-detalle { 
+            max-width: 650px; 
+            margin: 50px auto; 
+            background: linear-gradient(135deg, #fff9f2 0%, #ffe0cc 100%); 
+            padding: 40px; 
+            border-radius: 15px; 
+            box-shadow: 0 10px 30px rgba(227, 53, 13, 0.4); 
+            border: 3px solid #e3350d; 
+        }
+        .btn-volver { 
+            display: inline-block; 
+            margin-bottom: 25px; 
+            color: #fff; 
+            background-color: #333;
+            text-decoration: none; 
+            font-weight: bold; 
+            padding: 8px 15px; 
+            border-radius: 6px; 
+            transition: background 0.3s;
+        }
+        .btn-volver:hover { background-color: #555; }
+        
+        h1 { color: #cc0000; text-align: center; border-bottom: 2px solid #e3350d; padding-bottom: 15px; font-size: 2.2em; }
+        h2 { color: #d35400; margin-top: 30px; }
+        h3 { background: #e3350d; color: white; padding: 10px 15px; border-radius: 5px; }
+        h4 { color: #c0392b; margin-bottom: 5px; font-size: 1.2em; }
+        h5 { color: #c0392b; margin-bottom: 5px; font-size: 1.1em; }
+        h6 { color: #7f8c8d; font-size: 1em; margin-top: 0; font-weight: normal; }
+        
+        .caja-habilidad { 
+            background: rgba(255,255,255,0.7); 
+            padding: 20px; 
+            border-radius: 8px; 
+            margin-bottom: 20px; 
+            border-left: 5px solid #d35400;
+        }
+        .imagen-carta { text-align: center; margin-top: 30px; }
+        .imagen-carta img { 
+            border-radius: 12px; 
+            box-shadow: 0 8px 25px rgba(0,0,0,0.5); 
+            transition: transform 0.4s ease; 
+        }
+        .imagen-carta img:hover { transform: scale(1.08) rotate(2deg); } /* Efecto genial al pasar el mouse */
+    </style>
 </head>
-<body style="background-color: #ffe6cc; font-family: Arial, sans-serif;">
+<body>
 
-    <h1 style="color: #cc0000;">Charizard - Base Set (1999)</h1>
-    
-    <p><a href="index.html">⬅ Volver a la página principal</a></p>
+    <div class="tarjeta-detalle">
+        <a href="index.html" class="btn-volver">⬅ Volver a la colección</a>
 
-    <hr>
+        <h1>Charizard - Base Set (1999)</h1>
+        
+        <h2>Estadísticas de la Carta</h2>
+        <p>El Charizard del Base Set es probablemente la carta más icónica de toda la historia del juego. Es un Pokémon de tipo <strong>Fuego</strong> con <strong>120 Puntos de Salud (HP)</strong>.</p>
+        
+        <h3>Habilidades y Ataques</h3>
+        
+        <div class="caja-habilidad">
+            <h4>Poder Pokémon: Energy Burn</h4>
+            <p>Convierte todas las energías unidas a Charizard en energías de tipo Fuego. Esto te permite usar energías de cualquier tipo para cargar su ataque principal.</p>
+        </div>
 
-    <h2>Estadísticas de la Carta</h2>
-    
-    <p>El Charizard del Base Set es probablemente la carta más icónica de toda la historia del juego. Es un Pokémon de tipo Fuego con 120 Puntos de Salud (HP).</p>
-    
-    <h3>Habilidades y Ataques</h3>
-    <h4>Poder Pokémon: Energy Burn</h4>
-    <p>Convierte todas las energías unidas a Charizard en energías de tipo Fuego.</p>
-    
-    <h5>Ataque Principal: Fire Spin</h5>
-    <h6>Daño: 100</h6>
-    <p>Requiere descartar dos cartas de energía unidas a este Pokémon para poder atacar.</p>
+        <div class="caja-habilidad">
+            <h5>Ataque Principal: Fire Spin</h5>
+            <h6>Daño: 100</h6>
+            <p style="color: #555; font-style: italic; margin-bottom: 0;">Requiere descartar dos cartas de energía unidas a este Pokémon para poder atacar.</p>
+        </div>
 
-    <div style="text-align: center;">
-        <img src="charizard.jpg" 
-             alt="Fotografía de la carta holográfica de Charizard" 
-             title="Charizard Holográfico Base Set" 
-             height="400">
+        <div class="imagen-carta">
+            <img src="Charizard.jpg" 
+                 alt="Fotografía de la carta holográfica de Charizard" 
+                 title="Charizard Holográfico Base Set" 
+                 height="380">
+        </div>
     </div>
 
 </body>
