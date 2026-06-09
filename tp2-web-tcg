@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Colección TCG - Pokémon</title>
+</head>
+<body style="background-color: #f0f0f0; font-family: Arial, sans-serif;">
+
+    <h1 style="color: #e3350d; text-align: center;">Colección de Cartas Pokémon TCG</h1>
+    
+    <h2>Bienvenidos a mi sitio web temático</h2>
+    
+    <p>El Juego de Cartas Coleccionables Pokémon (TCG) es un juego de mesa competitivo <br> 
+    basado en la popular franquicia de videojuegos y anime.</p>
+    
+    <p>En este sitio estático, documentaré algunas de mis cartas favoritas, sus estadísticas y su historia dentro del juego competitivo.</p>
+
+    <hr>
+
+    <h3>Cartas Destacadas</h3>
+    <ul>
+        <li><a href="charizard.html">Ver detalle de la carta: Charizard Base Set</a></li>
+    </ul>
+
+    <hr>
+
+    <h4>Recursos Adicionales</h4>
+    <p>Para conocer más sobre las reglas oficiales, visita el 
+       <a href="https://tcg.pokemon.com/es-es/" target="_blank">Sitio Oficial de Pokémon TCG</a>.
+    </p>
+
+    <div style="text-align: center;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Pok%C3%A9mon_Trading_Card_Game_logo.svg" 
+             alt="Logo oficial de Pokémon TCG" 
+             title="Logotipo del Juego de Cartas Coleccionables" 
+             width="300">
+    </div>
+
+</body>
+</html>
