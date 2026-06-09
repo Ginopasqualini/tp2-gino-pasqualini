@@ -2,38 +2,103 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Colección TCG - Pokémon</title>
+    <style>
+        /* Estilos profesionales integrados */
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #eef2f5; 
+            margin: 0; 
+            padding: 0; 
+            color: #333; 
+        }
+        .contenedor { 
+            max-width: 800px; 
+            margin: 40px auto; 
+            background: white; 
+            padding: 40px; 
+            border-radius: 12px; 
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1); 
+        }
+        .cabecera { 
+            text-align: center; 
+            border-bottom: 4px solid #e3350d; 
+            padding-bottom: 20px; 
+            margin-bottom: 30px; 
+        }
+        h1 { color: #e3350d; margin-bottom: 5px; font-size: 2.5em; }
+        h2 { color: #555; font-weight: 300; margin-top: 0; }
+        p { line-height: 1.6; font-size: 1.1em; }
+        
+        .lista-cartas { list-style: none; padding: 0; }
+        .lista-cartas li { 
+            background: #fff; 
+            border: 2px solid #eee; 
+            margin-bottom: 15px; 
+            border-radius: 8px; 
+            transition: all 0.3s ease; 
+        }
+        .lista-cartas li:hover { 
+            transform: translateY(-5px); 
+            box-shadow: 0 5px 15px rgba(227, 53, 13, 0.2); 
+            border-color: #e3350d;
+        }
+        .lista-cartas a { 
+            display: block; 
+            padding: 20px; 
+            text-decoration: none; 
+            color: #333; 
+            font-weight: bold; 
+            font-size: 1.2em;
+        }
+        .enlace-externo { 
+            display: inline-block; 
+            padding: 12px 20px; 
+            background-color: #3498db; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 6px; 
+            font-weight: bold;
+            margin-top: 10px;
+            transition: background 0.3s;
+        }
+        .enlace-externo:hover { background-color: #2980b9; }
+        .imagen-centrada { text-align: center; margin-top: 40px; }
+    </style>
 </head>
-<body style="background-color: #f0f0f0; font-family: Arial, sans-serif;">
+<body style="border-top: 6px solid #2a75bb;">
 
-    <h1 style="color: #e3350d; text-align: center;">Colección de Cartas Pokémon TCG</h1>
-    
-    <h2>Bienvenidos a mi sitio web temático</h2>
-    
-    <p>El Juego de Cartas Coleccionables Pokémon (TCG) es un juego de mesa competitivo <br> 
-    basado en la popular franquicia de videojuegos y anime.</p>
-    
-    <p>En este sitio estático, documentaré algunas de mis cartas favoritas, sus estadísticas y su historia dentro del juego competitivo.</p>
+    <div class="contenedor">
+        <div class="cabecera">
+            <h1>Colección de Cartas Pokémon</h1>
+            <h2>Bienvenidos a mi sitio web temático</h2>
+        </div>
+        
+        <p>El Juego de Cartas Coleccionables Pokémon (TCG) es un juego de mesa competitivo <br> 
+        basado en la popular franquicia de videojuegos y anime.</p>
+        
+        <p>En este sitio estático, documentaré algunas de mis cartas favoritas, sus estadísticas y su historia dentro del juego competitivo y del coleccionismo mundial.</p>
 
-    <hr>
+        <hr style="border: 0; height: 1px; background: #ddd; margin: 30px 0;">
 
-    <h3>Cartas Destacadas</h3>
-    <ul>
-        <li><a href="charizard.html">Ver detalle de la carta: Charizard Base Set</a></li>
-    </ul>
+        <h3>Cartas Destacadas</h3>
+        <ul class="lista-cartas">
+            <li><a href="charizard.html">🔥 Ver detalle de la carta: Charizard Base Set</a></li>
+        </ul>
 
-    <hr>
+        <hr style="border: 0; height: 1px; background: #ddd; margin: 30px 0;">
 
-    <h4>Recursos Adicionales</h4>
-    <p>Para conocer más sobre las reglas oficiales, visita el 
-       <a href="https://tcg.pokemon.com/es-es/" target="_blank">Sitio Oficial de Pokémon TCG</a>.
-    </p>
+        <h4>Recursos Adicionales</h4>
+        <p>Para conocer más sobre las reglas oficiales, visita el siguiente enlace:</p>
+        <a href="https://tcg.pokemon.com/es-es/" target="_blank" class="enlace-externo">Sitio Oficial de Pokémon TCG</a>
 
-    <div style="text-align: center;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Pok%C3%A9mon_Trading_Card_Game_logo.svg" 
-             alt="Logo oficial de Pokémon TCG" 
-             title="Logotipo del Juego de Cartas Coleccionables" 
-             width="300">
+        <div class="imagen-centrada">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Pok%C3%A9mon_Trading_Card_Game_logo.svg" 
+                 alt="Logo oficial de Pokémon TCG" 
+                 title="Logotipo del Juego de Cartas Coleccionables" 
+                 width="280">
+        </div>
     </div>
 
 </body>
